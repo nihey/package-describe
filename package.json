@@ -1,0 +1,24 @@
+{
+  "name": "package-describe",
+  "version": "0.0.3",
+  "description": "Describes your dependencies from npm",
+  "bin": {
+    "package-describe": "bin/package-describe.js"
+  },
+  "main": "bin/package-describe.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "describe",
+    "dependencies",
+    "packages",
+    "npm"
+  ],
+  "author": "Nihey Takizawa",
+  "license": "MIT",
+  "dependencies": {
+    "extend": "^2.0.1",
+    "package-json": "^1.2.0"
+  }
+}
