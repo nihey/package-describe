@@ -1,6 +1,6 @@
 {
   "name": "package-describe",
-  "version": "0.0.3",
+  "version": "0.0.5",
   "description": "Describes your dependencies from npm",
   "bin": {
     "package-describe": "bin/package-describe.js"
@@ -17,6 +17,10 @@
   ],
   "author": "Nihey Takizawa",
   "license": "MIT",
+  "repository": {
+      "type": "git",
+      "url": "https://github.com/nihey/package-describe"
+  },
   "dependencies": {
     "extend": "^2.0.1",
     "package-json": "^1.2.0"
